@@ -2639,4 +2639,18 @@ pre .keyword, pre .javascript .function {
     }
 }
 
+/*文章标题*/
+.post-header{
+    padding: 10px 15px;
+}
+
+.post-meta{
+    margin-top: 8px;
+}
+
+/*文本内容*/
+.post-content{
+    background-color: #fff;
+    padding: 10px 15px;
+}
 
