@@ -11,4 +11,4 @@ categories: jekyll update
 
 <!-- ![有帮助的截图]({{ site.url }}/ress/123.jpg) -->
 
-![有帮助的截图](/res/123.jpg)
+![有帮助的截图](/res/21.pic.jpg)
