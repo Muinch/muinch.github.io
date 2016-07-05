@@ -6,7 +6,7 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-       <section class="post" itemscope="" itemprop="blogitem">
+       <section class="post ind_cell" itemscope="" itemprop="blogitem">
           <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}" itemprop="url">
           <h1 itemprop="name">{{ post.title }}</h1>
           <p itemprop="description">{{ post.brief }}</p>

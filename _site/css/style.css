@@ -2650,7 +2650,13 @@ pre .keyword, pre .javascript .function {
 
 /*文本内容*/
 .post-content{
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
     background-color: #fff;
     padding: 10px 15px;
 }
 
+/*首页CELL间距*/
+.ind_cell{
+    margin: 10px;
+}
