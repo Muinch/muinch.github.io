@@ -7,9 +7,19 @@ categories: jekyll update
 ---
 
 
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-> 
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
+<div>
+
+使用 _data 数据文件
+
+<ul>
+{% for nu in site.data.num %}
+  <li>
+    <!-- <a href="https://github.com/{{ member.github }}"> -->
+      {{ nu.title }}
+    <!-- </a> -->
+  </li>
+{% endfor %}
+</ul>
+
+
+</div>
