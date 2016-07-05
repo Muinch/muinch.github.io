@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+       <section class="post" itemscope="" itemprop="blogitem">
+          <a href="{{ post.url | prepend: site.baseurl }}" title="美团到底为什么从 AppStore 下架" itemprop="url">
+          <h1 itemprop="name">{{ post.title }}</h1>
+          <p itemprop="description">{{ post.brief }}</p>
+          <time datetime="2016-06-26T15:08:39.000Z" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+          </a>
+      </section>
+    {% endfor %}
+  </ul>
+
+  <!-- 分页模块 -->
+<!--     <nav id="page-nav" class="clearfix unexpand">
+      <span class="page-number current">1</span>
+      <a class="page-number" href="/page/2/">2</a>
+      <a class="page-number" href="/page/3/">3</a>
+      <span class="space">…</span>
+      <a class="page-number" href="/page/14/">末页</a>
+      <a class="extend next" rel="next" href="/page/2/">下一页<span></span></a>
+    </nav> -->
+
+</div>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+<div id="container">
+
+  <div id="main">
+     {{ content }}
+  </div>
+
+
+<!-- 广告模块 -->
+  <div id="asidepart">
+      <aside class="clearfix">
+        <div class="sponsor">
+            <p class="asidetitle">广告</p>
+            <a target="_blank" href="#"><img src="https://www.jianxun.io/ad/20151101/tangqiao-rightbanner.jpg" width="235px" height="200px"></a></div>
+        <div class="categorieslist">
+          <p class="asidetitle">分类</p>
+          <ul>
+            <li><a href="/categories/books-summary/" title="books summary">技术分享</a></li>
+            <li><a href="/categories/iOS/" title="iOS">闲暇扯蛋</a></li>
+          </ul> </div>
+      </aside>
+    </div></div>
+    
+ </div>
+    {% include footer.html %}
+
+  </body>
+
+</html>
