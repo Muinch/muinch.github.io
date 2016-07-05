@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Musink
+title: 木瓜
 brief: 随意写写，记录生活点滴～～
 email: 543518851@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  这个是网站的简介简介简介简介简介简介简介简介简介简介简介简介简介简介.
+  这个个人博客，用于技术分享以及交流探讨～～
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://Musink.com" # the base hostname & protocol for your site
+url: "https://muinch.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
