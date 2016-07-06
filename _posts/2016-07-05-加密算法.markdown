@@ -7,7 +7,7 @@ categories: jekyll update
 ---
 
 
-5.1 通过简单的URLENCODE ＋ BASE64编码防止数据明文传输
+5.1 通过简单的URLENCODE ＋ BASE64编码防止数据明文传输<br>
 
 5.2 对普通请求、返回数据，生成MD5校验（MD5中加入动态密钥），进行数据完整性（简单防篡改，安全性较低，优点：快速）校验。 
 
