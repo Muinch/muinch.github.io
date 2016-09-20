@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "代码仓库GIT常用命令"
-date:   2016-20-05 11:20:13 +0800
+date:   2016-09-20 11:20:13 +0800
 brief: 常用的命令，一边日后查询。
 categories: jekyll update
 ---
