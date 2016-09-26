@@ -7,17 +7,13 @@ url: "https://lanchc.github.io/"
 title_description: "这个是一个简单的介绍这个是一个简单的介绍这个是一个简单的介绍这个是一个简单的介绍这个是一个简单的介绍这个是一个简单的介绍这个是一个简单的介绍"
 title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
 google_analytics: "UA-20365477-4"
-disqus_account: cartenoire
 github_repository: https://github.com/jacobtomlinson/carte-noire
 addthis_id: ra-513c6fa83da6ec67
 post_limit: 5
 
 # Social usernames/URLs
-twitter_username: _jacobtomlinson
-github_username:  jacobtomlinson
-linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
-google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
-stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
+share_twitter: lanchc
+share_github:  lanchc
 
 # Footer
 footer_left: "Welcome to <a href=\"https://lanchc.github.io\">Lanchc</a>"
