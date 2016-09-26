@@ -1,45 +1,56 @@
-# jekyll-uno
+# Carte Noire
 
-Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
+A simple Jekyll theme for blogging. Not named after the coffee.
 
-> :warning:
-  This theme requires ruby and rubygems installed
+![Homepage](http://i.imgur.com/xlmHArV.png)
 
-### Features
+### Article
+![Article](http://i.imgur.com/8rD8FfC.png)
 
-* Clean layout
-* Resposive layout
-* Pagination
-* Syntax highlighting
-* Social links
-* Tags listing page
-* Categories listing page
-* Google Analytics integration
-* Disqus integration
+### Disqus Comments
+![Comments](http://i.imgur.com/TBZHQwF.png)
 
----
+### Posts grouped by year
+![All Posts](http://i.imgur.com/9bNs2Sc.png)
 
-### Install and Test
+### JavaScript Search
+![Search](http://i.imgur.com/yQqMeSl.png)
 
-1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
-2. Enter the folder: `cd jekyll-uno/`
-3. If you don't have bundler installed: `gem install bundler`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `bundle exec jekyll serve --watch`
+### Menu by mmenu
+![Menu](http://i.imgur.com/SClrNSH.png)
 
-Access via: [http://localhost:4000/jekyll-uno/](http://localhost:4000/jekyll-uno/)
+## Contact
+If you wish to contact me regarding this theme please raise an issue on GitHub,
+tweet me [@_jacobtomlinson](http://www.twitter.com/_jacobtomlinson) or email me
+[jacob@jacobtomlinson.co.uk](mailto:jacob@jacobtomlinson.co.uk).
 
----
+## Contribution
+Pull requests are very welcome.
 
-### Demo and Download
+## Theme
+This jekyll theme has been created from scratch. Ideas and inspiration are taken
+from other places but the code is my own.
 
-[Demo](http://joshgerdes.com/jekyll-uno/)
-[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
+## Tools and Libraries
+The following tools and libraries are used in this theme
 
-![jekyll-uno - free Jekyll theme](/screenshot.png)
+### JavaScript
+ * [jQuery](http://jquery.com/)
+ * [MMenu](http://mmenu.frebsite.nl/)
+ * [HighlightJS](https://highlightjs.org/)
+ * [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search)
 
----
+### CSS
+ * [Bootstrap](http://getbootstrap.com/)
+ * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
 
-### Copyright and license
+### Social
+ * [AddThis](http://www.addthis.com/)
+ * [Disqus](https://disqus.com/)
 
-It is under [the MIT license](/LICENSE).
+### Other
+ * [Real Favicon Generator](http://realfavicongenerator.net/)
+ * [Google Analytics](http://www.google.com/analytics/)
+
+## License
+The jekyll theme, HTML, CSS and JavaScript is licensed under GPLv3 (unless stated otherwise in the file).
