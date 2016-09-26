@@ -1,41 +1,44 @@
-# resumecard
+Solar Theme for Jekyll
+======================
+
+A stylish theme for [Jekyll](http://jekyllrb.com/) blogs, based on the [Solarized](http://ethanschoonover.com/solarized) color palette.
+
+![Screenshot](http://i.imgur.com/UnnRhkt.png)
+
+
+Features
 -------
-resumecard is a theme built on top of bootstrap and other freely available libraries. Its aimed to provide a fully furnished Jekyll theme for personal resume.  
 
-[![Build Status](https://travis-ci.org/ddbullfrog/resumecard.svg?branch=master)](https://travis-ci.org/ddbullfrog/resumecard)
+* **Two color schemes** — One for Solarized Dark and one for Solarized Light. Just swap the reference to the `colors-dark.css` file with `colors-light.css` if you don't like light-on-dark.
+* **Linkblog support** — Solar will turn your post title into an external link if you add `external-url: http://example.org` to a post's YAML front matter.
+* **Responsive Design** — Solarized adapts to fit any screen size.
 
-## Demo
+
+Installation
+--------------
+
+There are two ways to use Solar. You can either clone-and-go, copying the repository and tweaking the contents to taste, or you can cherry-pick the files you want and integrate them into an existing Jekyll instance. 
+
+If you're starting a new blog, you want to clone-and-go. Just `git clone https://github.com/redwallhp/solar-theme-jekyll.git`, make any changes you want to the template, pages or `_config.yml` and start blogging with Jekyll. Easy.
+
+If you're wanting to replace the theme of an existing Jekyll blog, either option should work. If you want to replace files individually, the files and directories you want to make sure to copy are:
+
+1. `_layouts`
+2. `archives`
+3. `assets`
+4. `feed.xml`
+5. `index.xml`
+
+You'll also want to compare Solar's `_config.yml` with your own, making any appropriate changes.
+
+
+Demo
 -------
-You can see the live demo of [resumecard](https://ddbullfrog.github.io/resumecard)
 
-This is the web page on desktop browser.
+You can see a demo of Solar [right here on GitHub Pages.](http://mattvh.github.io/solar-theme-jekyll/)
 
-![Desktop](https://github.com/ddbullfrog/resumecard/blob/gh-pages/_assets/normal.jpg)
 
-## Getting Started
--------
-- [Fork this repository](https://github.com/ddbullfrog/resumecard/fork)
-- Clone it: `git clone https://github.com/YOUR-USER/resumecard`
-- Run the jekyll server: `jekyll serve`
+License
+---------
 
-You should have a server up and running locally at <http://localhost:4000>.
-
-## Features
--------
-- Responsive Jekyll theme
-- Easy integration with Google Analytics
-
-## Configuration
--------
-- _config.yml
--  CNAME
-	If you're using it on GitHub Pages with a custom domain name, 
-	you'll want to change it to be the domain you're going to use. 
-	All that should be in here is a domain name on the first line and nothing else (like: `example.com`).
--  avatar.JPG
-	This is a smaller version of my gravatar for use as the icon in your browser's address bar. 
-	You should change it to whatever you'd like.
-
-## License
--------
-Open sourced under the [MIT license](LICENSE.md).
+GPLv2 or higher
