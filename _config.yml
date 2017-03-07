@@ -4,7 +4,7 @@ email: lanchc@sohu.com
 description: "这是一个简单的博客"
 baseurl: ""
 url: "https://lanchc.github.io/"
-title_description: "这个是一个简单的介绍这个是一个简单的介绍这个是一个简单的介绍这个是一个简单的介绍这个是一个简单的介绍这个是一个简单的介绍这个是一个简单的介绍"
+title_description: "懒虫联系邮箱:lanchc@sohu.com"
 title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
 github_repository: https://github.com/lanchc/lanchc.github.io
 post_limit: 5
