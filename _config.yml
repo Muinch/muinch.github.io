@@ -5,7 +5,7 @@ description: "这是一个简单的博客"
 baseurl: ""
 url: "https://lanchc.github.io/"
 title_description: "懒虫联系邮箱: lanchc@qq.com"
-title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+title_image: "http://q1.qlogo.cn/g?b=qq&nk=543518851&s=640"
 github_repository: https://github.com/lanchc/lanchc.github.io
 post_limit: 5
 
